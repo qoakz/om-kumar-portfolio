@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Your Name</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="portfolio-header">
+        <div class="container">
+            <h1 class="page-title">My Portfolio</h1>
+            <p class="page-subtitle">Showcasing innovative solutions and successful projects</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="consulting">Consulting</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-full">
+        <div class="container">
+            <div class="portfolio-grid-full">
+                <!-- E-Commerce Platform -->
+                <div class="portfolio-item-full" data-category="web">
+                    <div class="portfolio-image-full">
+                        <img src="https://via.placeholder.com/600x400/4F46E5/FFFFFF?text=E-Commerce+Platform" alt="E-Commerce Platform">
+                    </div>
+                    <div class="portfolio-content-full">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="portfolio-description">A comprehensive online shopping platform built for scalability and user experience. Features include advanced product management, secure payment processing, inventory tracking, and analytics dashboard.</p>
+                        <div class="portfolio-details">
+                            <div class="portfolio-tech">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Node.js</span>
+                                    <span class="tag">MongoDB</span>
+                                    <span class="tag">Stripe</span>
+                                    <span class="tag">AWS</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Responsive design for all devices</li>
+                                    <li>Advanced search and filtering</li>
+                                    <li>Secure payment processing</li>
+                                    <li>Admin dashboard</li>
+                                    <li>Analytics and reporting</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                            <a href="#" class="btn btn-primary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fitness Tracking App -->
+                <div class="portfolio-item-full" data-category="mobile">
+                    <div class="portfolio-image-full">
+                        <img src="https://via.placeholder.com/600x400/10B981/FFFFFF?text=Fitness+Tracking+App" alt="Fitness Tracking App">
+                    </div>
+                    <div class="portfolio-content-full">
+                        <h3>FitTrack Pro - Mobile App</h3>
+                        <p class="portfolio-description">A cross-platform fitness tracking application that helps users monitor workouts, track nutrition, and achieve fitness goals. Features social sharing, progress visualization, and personalized recommendations.</p>
+                        <div class="portfolio-details">
+                            <div class="portfolio-tech">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span class="tag">React Native</span>
+                                    <span class="tag">Firebase</span>
+                                    <span class="tag">TypeScript</span>
+                                    <span class="tag">Redux</span>
+                                    <span class="tag">Native APIs</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Workout tracking and planning</li>
+                                    <li>Nutrition logging</li>
+                                    <li>Progress analytics</li>
+                                    <li>Social features</li>
+                                    <li>Offline functionality</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                            <a href="#" class="btn btn-primary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Management Tool -->
+                <div class="portfolio-item-full" data-category="web">
+                    <div class="portfolio-image-full">
+                        <img src="https://via.placeholder.com/600x400/F59E0B/FFFFFF?text=Project+Management+Tool" alt="Project Management Tool">
+                    </div>
+                    <div class="portfolio-content-full">
+                        <h3>TeamFlow - Project Management Platform</h3>
+                        <p class="portfolio-description">A collaborative project management solution designed for remote teams. Features real-time collaboration, task management, time tracking, and comprehensive reporting tools.</p>
+                        <div class="portfolio-details">
+                            <div class="portfolio-tech">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span class="tag">Vue.js</span>
+                                    <span class="tag">Python</span>
+                                    <span class="tag">PostgreSQL</span>
+                                    <span class="tag">WebSocket</span>
+                                    <span class="tag">Docker</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Real-time collaboration</li>
+                                    <li>Task and milestone tracking</li>
+                                    <li>Time and resource management</li>
+                                    <li>Advanced reporting</li>
+                                    <li>Integration APIs</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                            <a href="#" class="btn btn-primary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Website -->
+                <div class="portfolio-item-full" data-category="web">
+                    <div class="portfolio-image-full">
+                        <img src="https://via.placeholder.com/600x400/EF4444/FFFFFF?text=Restaurant+Website" alt="Restaurant Website">
+                    </div>
+                    <div class="portfolio-content-full">
+                        <h3>Bella Vista Restaurant Website</h3>
+                        <p class="portfolio-description">A modern, responsive website for an upscale restaurant featuring online reservations, menu management, and customer testimonials. Designed to enhance the dining experience and increase bookings.</p>
+                        <div class="portfolio-details">
+                            <div class="portfolio-tech">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span class="tag">HTML5</span>
+                                    <span class="tag">CSS3</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">PHP</span>
+                                    <span class="tag">MySQL</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Online reservation system</li>
+                                    <li>Dynamic menu management</li>
+                                    <li>Customer reviews</li>
+                                    <li>Mobile-first design</li>
+                                    <li>SEO optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                            <a href="#" class="btn btn-primary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banking App Design -->
+                <div class="portfolio-item-full" data-category="design">
+                    <div class="portfolio-image-full">
+                        <img src="https://via.placeholder.com/600x400/8B5CF6/FFFFFF?text=Banking+App+Design" alt="Banking App Design">
+                    </div>
+                    <div class="portfolio-content-full">
+                        <h3>SecureBank Mobile App Design</h3>
+                        <p class="portfolio-description">Complete UI/UX design for a modern banking application focusing on security, accessibility, and user experience. Includes wireframes, prototypes, and design systems.</p>
+                        <div class="portfolio-details">
+                            <div class="portfolio-tech">
+                                <h4>Tools Used:</h4>
+                                <div class="tech-tags">
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">Sketch</span>
+                                    <span class="tag">Adobe XD</span>
+                                    <span class="tag">InVision</span>
+                                    <span class="tag">Principle</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>User research and personas</li>
+                                    <li>Information architecture</li>
+                                    <li>Wireframing and prototyping</li>
+                                    <li>Design system creation</li>
+                                    <li>Usability testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-secondary">View Design</a>
+                            <a href="#" class="btn btn-primary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-Learning Platform -->
+                <div class="portfolio-item-full" data-category="web">
+                    <div class="portfolio-image-full">
+                        <img src="https://via.placeholder.com/600x400/06B6D4/FFFFFF?text=E-Learning+Platform" alt="E-Learning Platform">
+                    </div>
+                    <div class="portfolio-content-full">
+                        <h3>LearnHub - E-Learning Platform</h3>
+                        <p class="portfolio-description">A comprehensive online learning management system featuring course creation, student progress tracking, interactive assessments, and multimedia content support.</p>
+                        <div class="portfolio-details">
+                            <div class="portfolio-tech">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span class="tag">Angular</span>
+                                    <span class="tag">Laravel</span>
+                                    <span class="tag">MySQL</span>
+                                    <span class="tag">Redis</span>
+                                    <span class="tag">AWS S3</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Course management system</li>
+                                    <li>Video streaming and hosting</li>
+                                    <li>Interactive quizzes</li>
+                                    <li>Progress tracking</li>
+                                    <li>Analytics dashboard</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                            <a href="#" class="btn btn-primary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="portfolio-cta-full">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss how I can help bring your vision to life with innovative solutions and proven expertise.</p>
+                <a href="index.html#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Your Name</h3>
+                    <p>Professional solutions for modern businesses</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
