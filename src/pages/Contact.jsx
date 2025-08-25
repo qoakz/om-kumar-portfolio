@@ -113,6 +113,9 @@ const Contact = () => {
                <Phone className="h-8 w-8 text-blue-500" />
              </div>
              <div className="animate-bounce" style={{ animationDelay: '0.9s' }}>
+               <Linkedin className="h-8 w-8 text-blue-600" />
+             </div>
+             <div className="animate-bounce" style={{ animationDelay: '1.1s' }}>
                <MapPin className="h-8 w-8 text-indigo-500" />
              </div>
            </div>
