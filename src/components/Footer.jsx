@@ -28,7 +28,7 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/om-kumar-300926277',
       icon: <Linkedin className="h-5 w-5" />
     },
     {
